@@ -1,0 +1,45 @@
+2019/07/04 00:07:26 [error] [php] Undefined variable: model (C:\xampp\htdocs\PRUEBA-YII\pruebayii\entorno\protected\views\site\login.php:28)
+Stack trace:
+#0 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\xampp\htdocs\PRUEBA-YII\pruebayii\entorno\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\PRUEBA-YII\pruebayii\entorno\index.php(13): CWebApplication->run()
+REQUEST_URI=/PRUEBA-YII/pruebayii/entorno/site/index
+in C:\xampp\htdocs\PRUEBA-YII\pruebayii\entorno\protected\views\site\login.php (28)
+in C:\xampp\htdocs\PRUEBA-YII\pruebayii\entorno\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\PRUEBA-YII\pruebayii\entorno\index.php (13)
+2019/07/04 00:07:38 [error] [php] Undefined variable: code (C:\xampp\htdocs\PRUEBA-YII\pruebayii\entorno\protected\views\site\error.php:11)
+Stack trace:
+#0 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\xampp\htdocs\PRUEBA-YII\pruebayii\entorno\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\PRUEBA-YII\pruebayii\entorno\index.php(13): CWebApplication->run()
+REQUEST_URI=/PRUEBA-YII/pruebayii/entorno/site/index
+in C:\xampp\htdocs\PRUEBA-YII\pruebayii\entorno\protected\views\site\error.php (11)
+in C:\xampp\htdocs\PRUEBA-YII\pruebayii\entorno\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\PRUEBA-YII\pruebayii\entorno\index.php (13)
+2019/07/04 00:16:41 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "contact". in C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php(270): CController->missingAction('contact')
+#1 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CWebApplication.php(282): CController->run('contact')
+#2 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#3 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\PRUEBA-YII\pruebayii\entorno\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PRUEBA-YII/pruebayii/entorno/site/contact
+HTTP_REFERER=http://localhost/PRUEBA-YII/pruebayii/entorno/site/index
+---

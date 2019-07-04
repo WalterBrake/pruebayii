@@ -450,3 +450,58 @@ Stack trace:
 REQUEST_URI=/PRUEBA-YII/pruebayii/entorno/site/clients
 HTTP_REFERER=http://localhost/PRUEBA-YII/pruebayii/entorno/clients
 ---
+2019/07/04 04:51:10 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "clients". in C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php(270): CController->missingAction('clients')
+#1 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CWebApplication.php(282): CController->run('clients')
+#2 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/clients')
+#3 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\PRUEBA-YII\pruebayii\entorno\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PRUEBA-YII/pruebayii/entorno/site/clients
+HTTP_REFERER=http://localhost/PRUEBA-YII/pruebayii/entorno/
+---
+2019/07/04 04:51:29 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "clients". in C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php(270): CController->missingAction('clients')
+#1 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CWebApplication.php(282): CController->run('clients')
+#2 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/clients')
+#3 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\PRUEBA-YII\pruebayii\entorno\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PRUEBA-YII/pruebayii/entorno/site/clients
+HTTP_REFERER=http://localhost/PRUEBA-YII/pruebayii/entorno/
+---
+2019/07/04 04:56:40 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "view". in C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php(270): CController->missingAction('view')
+#1 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CWebApplication.php(282): CController->run('view')
+#2 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\PRUEBA-YII\pruebayii\entorno\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PRUEBA-YII/pruebayii/entorno/site/view
+HTTP_REFERER=http://localhost/PRUEBA-YII/pruebayii/entorno/
+---
+2019/07/04 04:57:10 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "view". in C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php(270): CController->missingAction('view')
+#1 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CWebApplication.php(282): CController->run('view')
+#2 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\PRUEBA-YII\pruebayii\entorno\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PRUEBA-YII/pruebayii/entorno/site/view
+HTTP_REFERER=http://localhost/PRUEBA-YII/pruebayii/entorno/
+---
+2019/07/04 04:57:19 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "clients". in C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php:486
+Stack trace:
+#0 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CController.php(270): CController->missingAction('clients')
+#1 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CWebApplication.php(282): CController->run('clients')
+#2 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/clients')
+#3 C:\xampp\htdocs\PRUEBA-YII\pruebayii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\PRUEBA-YII\pruebayii\entorno\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/PRUEBA-YII/pruebayii/entorno/site/clients
+HTTP_REFERER=http://localhost/PRUEBA-YII/pruebayii/entorno/site/login
+---

@@ -5,6 +5,7 @@ class Users extends CActiveRecord{
 		return parent::model($model);
 	} 
 	public function tableName(){
+		//name of the user table in db
 		return "users";
 	}
 }

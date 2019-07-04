@@ -8,6 +8,7 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'My Web Application',
+	//define the theme for modify the layout
 	'theme'=>'classic',
 	// preloading 'log' component
 	'preload'=>array('log'),

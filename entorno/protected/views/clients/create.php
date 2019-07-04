@@ -8,8 +8,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Clients', 'url'=>array('index')),
-	array('label'=>'Manage Clients', 'url'=>array('admin')),
+	array('label'=>'Todos los clientes', 'url'=>array('index')),
+	array('label'=>'administrar clientes', 'url'=>array('admin')),
 );
 ?>
 
